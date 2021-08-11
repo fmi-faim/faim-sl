@@ -11,9 +11,9 @@ setup(
     description="A wrapper around sci:luigi to deal with many images.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/fmi-basel/faim-sl",
+    url="https://github.com/fmi-faim/faim-sl",
     project_urls={
-        "Bug Tracker": "https://github.com/fmi-basel/faim-sl/issues",
+        "Bug Tracker": "https://github.com/fmi-faim/faim-sl/issues",
     },
     classifiers=[
         "Programming Language :: Python :: 3",
