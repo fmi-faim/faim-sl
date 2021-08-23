@@ -21,7 +21,7 @@ class MultiFileTask(sl.Task):
         for in_path in self.in_data().keys():
             _, name = split(in_path)
             filename, ext = splitext(name)
-            out_path = join(self.target_dir, filename + '{}.tif'.format(self.suffix))
+            out_path = join(self.target_dir, filename + '{}.{}'.format(self.suffix, ext))
             out_batch[out_path] = sl.TargetInfo(self, path=out_path)
             self.file_map[in_path] = out_path
 
